@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CalcTrice</title>
+		<link rel="stylesheet" href="CSS/main.css" />
+		<link
+			rel="stylesheet"
+			href="CSS/vendors/bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css"
+		/>
+		
+		<script defer src="JS/main.js"></script>
+	<body>
+		<svg
+			id="cursor-svg"
+			xmlns="http://www.w3.org/2000/svg"
+			xml:lang="en"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			viewBox="0 0 500 500"
+		>
+			<title>Circular Text Path</title>
+
+			<defs>
+				<path
+					id="textcircle"
+					d="M250,400
+                 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
+					transform="rotate(12,250,250)"
+				/>
+			</defs>
+			<rect width="100%" height="100%" fill="none" />
+			<text>
+				<textPath
+					xlink:href="#textcircle"
+					aria-label="CALCTRICE&#160"
+					textLength="942"
+				>
+					CALC.TRICE.&#160;
+				</textPath>
+			</text>
+		</svg>
+		<nav class="navbar">
+				<div class="logo"></div>
+				<ul>
+					<li><a href="#" class="nav-link cursor-text">About</a></li>
+					<li><a href="#" class="nav-link cursor-text">Services</a></li>
+					<li><a href="#" class="nav-link cursor-text">Contact Us</a></li>
+					<li><a href="#" class="nav-link cursor-text">Future Updates</a></li>
+				</ul>
+			</nav>
+		
+		<div class="container-fluid">
+			<main>
+				<div class="row landingPage">
+					
+					<div class="col-md-0 col-sm-0"></div>
+					<div class="col-lg-8 col-md-12 col-sm-12 CTA CTA-headline">
+						<div class="circle"></div>
+						<h1 class="heading">
+							<span class="heading-span-solid">Making</span>
+							<span class="heading-span-solid">Complex</span>
+							<span class="heading-span-outline"
+								>Calculations</span
+							>
+							<span class="heading-span-solid">Easy</span>
+							<span class="heading-span-outline">For You.</span>
+						</h1>
+						
+					</div>
+					<div class="col-lg-2 col-md-12 col-sm-12 CTA CTA-button">
+						<button class="button button--major-action-btn">
+							<span>Explore Now</span>
+							<div class="marquee" aria-hidden="true">
+								<div class="marquee__inner">
+									<span>Explore Now</span>
+									<span>Explore Now</span>
+									<span>Explore Now</span>
+									<span>Explore Now</span>
+								</div>
+							</div>
+						</button>
+					</div>
+					<div class="col-lg-2 col-md-12 col-sm-12 CTA CTA-articles">
+						<h4><a href="#">Click To Read Articles</a></h4>
+					</div>
+				</div>
+			</main>
+			
+		</div>
+		
+		<!-- <script src="CSS/vendors/bootstrap-5.0.0-beta2-dist/js/bootstrap.js"></script> -->
+	</body>
+</html>
